@@ -1,10 +1,10 @@
 /**********************************************************************
-* © 2007 Microchip Technology Inc.
+* Â© 2007 Microchip Technology Inc.
 *
 * FileName:        sask.h
 * Dependencies:    Header (.h) files if applicable, see below
 * Processor:       dsPIC33FJ256GP506
-* Compiler:        MPLAB® C30 v3.00 or higher
+* Compiler:        MPLABÂ® C30 v3.00 or higher
 *
 * SOFTWARE LICENSE AGREEMENT:
 * Microchip Technology Incorporated ("Microchip") retains all ownership and 
@@ -36,7 +36,7 @@
 ************************************************************************/
 #ifndef __SASK_BOARD_H__
 #define __SASK_BOARD_H__
-#include "..\h\p33FJ256GP506.h"
+#include <xc.h>
 
 /* The LEDS and their ports	*/
 #define YELLOW_LED_TRIS		_TRISC13
